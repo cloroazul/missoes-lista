@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p3/3123185-sabre-neon-brilho-cor-fluindo-retangulo-fundo-gratis-foto.jpg);
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(90, 189, 255);
+    padding: 15px;
+    text-align: center;
+    margin: 30px;
+    color: #FFFFFF;
+    text-shadow: #474747 3px 5px 2px;
+    color: #FFFFFF;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+main{
+    text-align: center;
+}
+textarea{
+    border: 2px solid #999;
+    background: transparent;
+    border-radius: 5%;
+    padding: 5px;
+    font-size: 17px;
+    color: #fff;
+    width: 300px;
+    height: 100px;
+    outline: 0;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+select, 
+button{
+    display: block;
+    width: 300px;
+    border: 2px solid #999;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+option{
+    background-color: #333;
+}
+
+select:disabled,
+button:disabled{
+    opacity: .1;
+}
